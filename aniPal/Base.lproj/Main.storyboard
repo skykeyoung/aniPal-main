@@ -461,6 +461,13 @@ Lives in an apartment that allows pets</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <imageReference key="image" image="person.crop.circle" catalog="system" renderingMode="original"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT6-vs-Hj5">
+                                <rect key="frame" x="285" y="438" width="30" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HWC-MU-HPe"/>
                         <color key="backgroundColor" red="0.89753919839999996" green="0.92437046769999998" blue="0.76468962429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
