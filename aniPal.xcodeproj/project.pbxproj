@@ -20,7 +20,7 @@
 		EB54DF8D26A8C1E50079E084 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54DF8C26A8C1E50079E084 /* ThirdViewController.swift */; };
 		EB54DF9126A8C2020079E084 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54DF9026A8C2020079E084 /* FifthViewController.swift */; };
 		EB54DF9326A8D4CB0079E084 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54DF9226A8D4CB0079E084 /* FourthViewController.swift */; };
-		EB54DF9526A90A6F0079E084 /* TESTDELETELATERViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54DF9426A90A6F0079E084 /* TESTDELETELATERViewController.swift */; };
+		EB54DF9726A90CAE0079E084 /* WOW ITS A THING.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54DF9626A90CAE0079E084 /* WOW ITS A THING.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		EB54DF8C26A8C1E50079E084 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		EB54DF9026A8C2020079E084 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		EB54DF9226A8D4CB0079E084 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		EB54DF9426A90A6F0079E084 /* TESTDELETELATERViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESTDELETELATERViewController.swift; sourceTree = "<group>"; };
+		EB54DF9626A90CAE0079E084 /* WOW ITS A THING.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WOW ITS A THING.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 				EB54DF8C26A8C1E50079E084 /* ThirdViewController.swift */,
 				EB54DF9026A8C2020079E084 /* FifthViewController.swift */,
 				EB54DF9226A8D4CB0079E084 /* FourthViewController.swift */,
-				EB54DF9426A90A6F0079E084 /* TESTDELETELATERViewController.swift */,
+				EB54DF9626A90CAE0079E084 /* WOW ITS A THING.swift */,
 			);
 			path = aniPal;
 			sourceTree = "<group>";
@@ -281,7 +281,7 @@
 				A8DC2D5426A76735002AFBB9 /* AppDelegate.swift in Sources */,
 				EB54DF9126A8C2020079E084 /* FifthViewController.swift in Sources */,
 				EB54DF9326A8D4CB0079E084 /* FourthViewController.swift in Sources */,
-				EB54DF9526A90A6F0079E084 /* TESTDELETELATERViewController.swift in Sources */,
+				EB54DF9726A90CAE0079E084 /* WOW ITS A THING.swift in Sources */,
 				EB54DF8B26A8C1D40079E084 /* SecondViewController.swift in Sources */,
 				EB54DF8D26A8C1E50079E084 /* ThirdViewController.swift in Sources */,
 				A8DC2D5626A76735002AFBB9 /* SceneDelegate.swift in Sources */,
