@@ -22,6 +22,7 @@
 		EB54DF9326A8D4CB0079E084 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54DF9226A8D4CB0079E084 /* FourthViewController.swift */; };
 		EB54DF9726A90CAE0079E084 /* WOW ITS A THING.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54DF9626A90CAE0079E084 /* WOW ITS A THING.swift */; };
 		EB54DF9926A90D640079E084 /* EVEN MORE EXTRA.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54DF9826A90D640079E084 /* EVEN MORE EXTRA.swift */; };
+		EBBC4E3126AA206300D38824 /* addListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBC4E3026AA206300D38824 /* addListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		EB54DF9226A8D4CB0079E084 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		EB54DF9626A90CAE0079E084 /* WOW ITS A THING.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WOW ITS A THING.swift"; sourceTree = "<group>"; };
 		EB54DF9826A90D640079E084 /* EVEN MORE EXTRA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EVEN MORE EXTRA.swift"; sourceTree = "<group>"; };
+		EBBC4E3026AA206300D38824 /* addListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				EB54DF9226A8D4CB0079E084 /* FourthViewController.swift */,
 				EB54DF9626A90CAE0079E084 /* WOW ITS A THING.swift */,
 				EB54DF9826A90D640079E084 /* EVEN MORE EXTRA.swift */,
+				EBBC4E3026AA206300D38824 /* addListViewController.swift */,
 			);
 			path = aniPal;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				A8DC2D5E26A76735002AFBB9 /* aniPal.xcdatamodeld in Sources */,
 				A8DC2D5826A76735002AFBB9 /* ViewController.swift in Sources */,
 				A8DC2D5426A76735002AFBB9 /* AppDelegate.swift in Sources */,
+				EBBC4E3126AA206300D38824 /* addListViewController.swift in Sources */,
 				EB54DF9126A8C2020079E084 /* FifthViewController.swift in Sources */,
 				EB54DF9326A8D4CB0079E084 /* FourthViewController.swift in Sources */,
 				EB54DF9726A90CAE0079E084 /* WOW ITS A THING.swift in Sources */,

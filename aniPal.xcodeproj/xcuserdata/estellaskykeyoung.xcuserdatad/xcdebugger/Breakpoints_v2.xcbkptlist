@@ -3,4 +3,114 @@
    uuid = "52E03754-19AE-49D2-B1AC-2739392B73DF"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9FA0A8D-714B-4905-8904-0EDF60CA8D16"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "aniPal/addListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "addListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A9FA0A8D-714B-4905-8904-0EDF60CA8D16 - acc0049ad02bf88a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aniPal.addListViewController.nameLabel3.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "aniPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estellaskykeyoung/Downloads/aniPal-main-main/aniPal/addListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "A9FA0A8D-714B-4905-8904-0EDF60CA8D16 - b0aed9499dd25c86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aniPal.addListViewController.nameLabel3.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "aniPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estellaskykeyoung/Downloads/aniPal-main-main/aniPal/addListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "A9FA0A8D-714B-4905-8904-0EDF60CA8D16 - fcc44720015d70ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aniPal.addListViewController.nameLabel3.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "aniPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estellaskykeyoung/Downloads/aniPal-main-main/aniPal/addListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "A9FA0A8D-714B-4905-8904-0EDF60CA8D16 - b214e52785fc9ea1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aniPal.addListViewController.nameLabel3.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "aniPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estellaskykeyoung/Downloads/aniPal-main-main/aniPal/addListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "A9FA0A8D-714B-4905-8904-0EDF60CA8D16 - dcf57cc6352d8793"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aniPal.addListViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; aniPal.addListViewController"
+                  moduleName = "aniPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estellaskykeyoung/Downloads/aniPal-main-main/aniPal/addListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "435">
+               </Location>
+               <Location
+                  uuid = "A9FA0A8D-714B-4905-8904-0EDF60CA8D16 - f3aca00cc1c25ad4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "aniPal.addListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;aniPal.addListViewController&gt;"
+                  moduleName = "aniPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/estellaskykeyoung/Downloads/aniPal-main-main/aniPal/addListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "379">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

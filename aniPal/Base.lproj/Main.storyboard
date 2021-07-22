@@ -40,6 +40,9 @@
                                         <state key="normal">
                                             <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="original"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="8Xt-ws-UVP" kind="presentation" identifier="nameSegue" animates="NO" modalPresentationStyle="fullScreen" id="ipE-bM-bNw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VuT-Cq-2tL">
                                         <rect key="frame" x="124" y="17" width="52" height="49"/>
@@ -97,6 +100,13 @@
                                     <segue destination="AQD-jL-6WI" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="ZTE-Ou-Crk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blue, 10 Weeks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgf-Kz-Gmn">
+                                <rect key="frame" x="203" y="565" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVP-k0-UIw">
                                 <rect key="frame" x="76" y="657" width="164" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -130,6 +140,9 @@
                                 <state key="normal" title="add to list">
                                     <color key="titleColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="addToList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ew5-ej-V5J"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -138,6 +151,7 @@
                     <navigationItem key="navigationItem" id="ljQ-hf-hvz"/>
                     <connections>
                         <outlet property="blue" destination="sNM-4B-JqZ" id="3oZ-Q4-N4Y"/>
+                        <outlet property="blueInf" destination="pgf-Kz-Gmn" id="Ey9-U0-XlN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -170,6 +184,9 @@
                                         <state key="normal">
                                             <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="original"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="8Xt-ws-UVP" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="6Vh-El-iF5"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6J-GW-e7n">
                                         <rect key="frame" x="124" y="17" width="52" height="49"/>
@@ -392,11 +409,6 @@ Lives in an apartment that allows pets</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y04-dO-1bi">
-                                <rect key="frame" x="20" y="397.5" width="132" height="124"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <imageReference key="image" image="person.crop.circle" catalog="system" renderingMode="original"/>
-                            </imageView>
                             <view contentMode="scaleToFill" id="kFt-vm-mNB">
                                 <rect key="frame" x="0.0" y="805" width="414" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -414,6 +426,9 @@ Lives in an apartment that allows pets</string>
                                         <state key="normal">
                                             <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="original"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="8Xt-ws-UVP" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="MSy-18-G33"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="140-XJ-3iN">
                                         <rect key="frame" x="124" y="17" width="52" height="49"/>
@@ -451,21 +466,73 @@ Lives in an apartment that allows pets</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eDO-yD-tNT">
-                                <rect key="frame" x="20" y="526.5" width="132" height="124"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y04-dO-1bi">
+                                <rect key="frame" x="40" y="415" width="132" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <imageReference key="image" image="person.crop.circle" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="sarah headshot" renderingMode="original"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGU-tm-uMY">
-                                <rect key="frame" x="20" y="654.5" width="132" height="124"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eDO-yD-tNT">
+                                <rect key="frame" x="40" y="544" width="132" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <imageReference key="image" image="person.crop.circle" catalog="system" renderingMode="original"/>
+                                <imageReference key="image" image="sky's_picture_lol" renderingMode="original"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LT6-vs-Hj5">
-                                <rect key="frame" x="285" y="438" width="30" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGU-tm-uMY">
+                                <rect key="frame" x="40" y="672" width="132" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <imageReference key="image" image="irene headshot" renderingMode="original"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sarah Ung" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9W-59-wCd">
+                                <rect key="frame" x="180" y="419" width="201" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                                <color key="textColor" red="0.85025447610000005" green="0.75095313789999996" blue="0.6470479965" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A rising HS senior in Central Valley, CA with foster kittens!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7i-a3-tQM">
+                                <rect key="frame" x="180" y="460" width="201" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A rising HS freshman and classical voice student in Newport Beach, CA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZA-2L-cBy">
+                                <rect key="frame" x="180" y="581" width="234" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A rising freshman at UCSD majoring in CS and mathematics." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Got-cb-CiJ">
+                                <rect key="frame" x="180" y="714" width="234" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sky Keyoung" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBW-q5-RAY">
+                                <rect key="frame" x="180" y="544" width="201" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83531635999999998" green="0.87517553569999995" blue="0.83921927210000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                                <color key="textColor" red="0.88541668650000005" green="0.69528514149999998" blue="0.63921034340000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Irene Liao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oe7-26-iy5">
+                                <rect key="frame" x="180" y="672" width="201" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8427180648" green="0.82123869660000004" blue="0.73332744839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                                <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4z-20-aUX">
+                                <rect key="frame" x="40" y="176" width="341" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8427180648" green="0.82123869660000004" blue="0.73332744839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">The mission of aniPal is to give foster animals a chance to find a furrever family. aniPal is the key in mitigating and alleviating the amount of animals in shelters, streets, and many other places. It also aids in transforming the adoption process to become much easier, which can be a barrier to people wanting to adopt.</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -475,7 +542,128 @@ Lives in an apartment that allows pets</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BNv-f4-OeV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="525" y="5"/>
+            <point key="canvasLocation" x="524.63768115942037" y="4.6875"/>
+        </scene>
+        <!--Add List View Controller-->
+        <scene sceneID="6aW-Gy-FhA">
+            <objects>
+                <viewController id="8Xt-ws-UVP" customClass="addListViewController" customModule="aniPal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t9r-ct-xC6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aniPal Logo" translatesAutoresizingMaskIntoConstraints="NO" id="LLk-0z-U7v">
+                                <rect key="frame" x="87" y="58" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="9AK-Rg-8yr">
+                                <rect key="frame" x="0.0" y="805" width="414" height="121"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="ZT2-8C-Fi5">
+                                        <rect key="frame" x="-122" y="929" width="414" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <viewLayoutGuide key="safeArea" id="UNQ-a0-r5M"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eop-2N-M5Z">
+                                        <rect key="frame" x="228" y="18" width="58" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal">
+                                            <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="original"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9o-76-i0M">
+                                        <rect key="frame" x="124" y="17" width="52" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <imageReference key="backgroundImage" image="magnifyingglass" catalog="system" renderingMode="original"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="7Io-Uo-r0W" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="HbO-vO-vpt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLO-Nq-nfo">
+                                        <rect key="frame" x="26" y="16" width="61" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <imageReference key="backgroundImage" image="house" catalog="system" renderingMode="original"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="oTL-io-X0P"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJg-pe-nsK">
+                                        <rect key="frame" x="330" y="14.5" width="55" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <imageReference key="backgroundImage" image="person.circle" catalog="system" renderingMode="original"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="v4w-Jk-Qo5" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="jdt-s0-zMc"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="45Z-pF-oL0"/>
+                                <color key="backgroundColor" red="0.8427180648" green="0.82123869660000004" blue="0.73332744839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zic-u8-cPW">
+                                <rect key="frame" x="87" y="184" width="240" height="434"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9J-mW-Bul">
+                                <rect key="frame" x="87" y="184" width="240" height="434"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmB-pQ-yOB">
+                                <rect key="frame" x="87" y="188" width="240" height="430"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wdu-hA-9oT">
+                                <rect key="frame" x="87" y="188" width="240" height="430"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrI-mv-7qZ">
+                                <rect key="frame" x="87" y="186" width="240" height="457"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="plr-hz-ntu"/>
+                        <color key="backgroundColor" red="0.89753919839999996" green="0.92437046769999998" blue="0.76468962429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameLabel1" destination="Wdu-hA-9oT" id="J9A-wO-pMV"/>
+                        <outlet property="nameLabel2" destination="jrI-mv-7qZ" id="hSB-O5-bM6"/>
+                        <outlet property="nameLabel3" destination="YmB-pQ-yOB" id="5VP-A9-i6L"/>
+                        <outlet property="nameLabel4" destination="b9J-mW-Bul" id="WpU-pK-Orb"/>
+                        <outlet property="nameLabel5" destination="zic-u8-cPW" id="PUa-rS-imO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0q7-Zg-APf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1256.521739130435" y="4.6875"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="REL-F2-xcX">
@@ -502,6 +690,9 @@ Lives in an apartment that allows pets</string>
                                         <state key="normal">
                                             <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="original"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="8Xt-ws-UVP" kind="presentation" identifier="nameSegue5" animates="NO" modalPresentationStyle="fullScreen" id="NKs-Zp-wDm"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7l-63-0nS">
                                         <rect key="frame" x="124" y="17" width="52" height="49"/>
@@ -569,11 +760,23 @@ Lives in an apartment that allows pets</string>
                                     <color key="titleColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="flipMe:" destination="DxH-ha-17t" eventType="touchUpInside" id="Qqy-Yf-YmK"/>
                                     <action selector="flipMe:" destination="Qyc-Kd-5he" eventType="touchUpInside" id="YiI-MO-Wdu"/>
-                                    <action selector="flipMe:" destination="DxH-ha-17t" eventType="touchUpInside" id="g9E-uF-4m4"/>
                                     <action selector="readMore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ho9-1O-vIS"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjM-m9-G3K">
+                                <rect key="frame" x="87" y="249" width="186" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Blue, 10 Weeks
+Dee Dee, 3 Months
+Kiki, 4 Months
+Ruby, 4 Months
+Yoshi, 13 Weeks</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7G-Lb-gDY">
                                 <rect key="frame" x="76" y="657" width="164" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -594,6 +797,9 @@ Lives in an apartment that allows pets</string>
                                 <state key="normal" title="add to list">
                                     <color key="titleColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="addToList:" destination="DxH-ha-17t" eventType="touchUpInside" id="82i-SL-UmB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QHy-H4-tr3"/>
@@ -601,7 +807,8 @@ Lives in an apartment that allows pets</string>
                     </view>
                     <navigationItem key="navigationItem" id="nzC-as-ub8"/>
                     <connections>
-                        <outlet property="yoshi" destination="rSL-n7-uTx" id="yTn-Ds-19R"/>
+                        <outlet property="yoshi" destination="rSL-n7-uTx" id="clL-h5-AN0"/>
+                        <outlet property="yoshiInf" destination="rjM-m9-G3K" id="esl-Fe-lVl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hq7-Ix-IzQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -633,6 +840,9 @@ Lives in an apartment that allows pets</string>
                                         <state key="normal">
                                             <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="original"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="8Xt-ws-UVP" kind="presentation" identifier="nameSegue2" animates="NO" modalPresentationStyle="fullScreen" id="H8C-QE-loA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wQ-NC-g3t">
                                         <rect key="frame" x="124" y="17" width="52" height="49"/>
@@ -665,6 +875,15 @@ Lives in an apartment that allows pets</string>
                                 <viewLayoutGuide key="safeArea" id="Qp1-G0-nFP"/>
                                 <color key="backgroundColor" red="0.8427180648" green="0.82123869660000004" blue="0.73332744839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ws0-pD-TYx">
+                                <rect key="frame" x="141" y="405" width="186" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Blue, 10 Weeks
+Dee Dee, 3 Months</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aniPal Logo" translatesAutoresizingMaskIntoConstraints="NO" id="NTx-fA-Tur">
                                 <rect key="frame" x="87" y="58" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -724,6 +943,9 @@ Lives in an apartment that allows pets</string>
                                 <state key="normal" title="add to list">
                                     <color key="titleColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="addToList:" destination="AQD-jL-6WI" eventType="touchUpInside" id="I0R-4n-YZA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lk2-sF-QJY"/>
@@ -732,11 +954,12 @@ Lives in an apartment that allows pets</string>
                     <navigationItem key="navigationItem" id="w10-OL-vg3"/>
                     <connections>
                         <outlet property="deedee" destination="SeX-qd-Ihe" id="Ln8-90-Ph1"/>
+                        <outlet property="deedeeInf" destination="ws0-pD-TYx" id="VHu-ca-mZI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fhe-ZD-WQF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-252" y="-915"/>
+            <point key="canvasLocation" x="-252.17391304347828" y="-915.40178571428567"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="nv3-Rc-g1q">
@@ -763,6 +986,9 @@ Lives in an apartment that allows pets</string>
                                         <state key="normal">
                                             <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="original"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="8Xt-ws-UVP" kind="presentation" identifier="nameSegue3" animates="NO" modalPresentationStyle="fullScreen" id="dj4-ar-kAe"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9E-PG-k33">
                                         <rect key="frame" x="124" y="17" width="52" height="49"/>
@@ -795,6 +1021,16 @@ Lives in an apartment that allows pets</string>
                                 <viewLayoutGuide key="safeArea" id="ejm-de-GCy"/>
                                 <color key="backgroundColor" red="0.8427180648" green="0.82123869660000004" blue="0.73332744839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JN1-9h-yGd">
+                                <rect key="frame" x="141" y="227" width="186" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Blue, 10 Weeks
+Dee Dee, 3 Months
+Kiki, 4 Months</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aniPal Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Tfi-oX-y0r">
                                 <rect key="frame" x="87" y="58" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -854,6 +1090,9 @@ Lives in an apartment that allows pets</string>
                                 <state key="normal" title="add to list">
                                     <color key="titleColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="addToList:" destination="G6Z-oR-WDj" eventType="touchUpInside" id="QNC-pZ-lEk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="V6d-8b-6Mc"/>
@@ -862,6 +1101,7 @@ Lives in an apartment that allows pets</string>
                     <navigationItem key="navigationItem" id="jdd-wv-IfG"/>
                     <connections>
                         <outlet property="kiki" destination="Z8w-nK-6ax" id="ZB4-fd-TZQ"/>
+                        <outlet property="kikiInf" destination="JN1-9h-yGd" id="2xu-fz-nbN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ikN-q7-ZJx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -893,6 +1133,9 @@ Lives in an apartment that allows pets</string>
                                         <state key="normal">
                                             <imageReference key="backgroundImage" image="heart" catalog="system" renderingMode="original"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="8Xt-ws-UVP" kind="presentation" identifier="nameSegue4" animates="NO" modalPresentationStyle="fullScreen" id="ImO-sA-8d9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibz-mG-HwE">
                                         <rect key="frame" x="124" y="17" width="52" height="49"/>
@@ -925,6 +1168,17 @@ Lives in an apartment that allows pets</string>
                                 <viewLayoutGuide key="safeArea" id="O99-hH-hYp"/>
                                 <color key="backgroundColor" red="0.8427180648" green="0.82123869660000004" blue="0.73332744839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGK-Sr-G39">
+                                <rect key="frame" x="127" y="292" width="186" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Blue, 10 Weeks
+Dee Dee, 3 Months
+Kiki, 4 Months
+Ruby, 4 Months</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aniPal Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ODH-lk-zgO">
                                 <rect key="frame" x="87" y="58" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -960,8 +1214,8 @@ Lives in an apartment that allows pets</string>
                                     <color key="titleColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="flipMe:" destination="DR1-FV-Qr0" eventType="touchUpInside" id="9Xf-iB-2zO"/>
                                     <action selector="flipMe:" destination="Qyc-Kd-5he" eventType="touchUpInside" id="IyP-RN-Ptf"/>
-                                    <action selector="flipMe:" destination="DR1-FV-Qr0" eventType="touchUpInside" id="kPI-zI-ZxO"/>
                                     <action selector="readMore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YS6-7l-lkC"/>
                                 </connections>
                             </button>
@@ -985,6 +1239,9 @@ Lives in an apartment that allows pets</string>
                                 <state key="normal" title="add to list">
                                     <color key="titleColor" red="0.43545001750000001" green="0.4104701281" blue="0.47059983020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="addToList:" destination="DR1-FV-Qr0" eventType="touchUpInside" id="2hC-Kx-EzZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3UU-GW-nXe"/>
@@ -993,6 +1250,7 @@ Lives in an apartment that allows pets</string>
                     <navigationItem key="navigationItem" id="zTC-jC-Ylq"/>
                     <connections>
                         <outlet property="ruby" destination="BP0-oX-fvt" id="bXH-Y3-r0M"/>
+                        <outlet property="rubyInf" destination="xGK-Sr-G39" id="OkF-be-FeR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EEx-fn-ywb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1002,25 +1260,29 @@ Lives in an apartment that allows pets</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ljj-Eb-BHk"/>
-        <segue reference="rrq-Ep-JXt"/>
-        <segue reference="ZTE-Ou-Crk"/>
+        <segue reference="bYI-Yw-NhE"/>
+        <segue reference="z7r-dW-Lp9"/>
+        <segue reference="Cwk-9F-qB2"/>
         <segue reference="AjY-W3-cVk"/>
-        <segue reference="fx2-mW-ne5"/>
-        <segue reference="aa6-cg-cRx"/>
-        <segue reference="ppZ-42-8Q5"/>
+        <segue reference="MSy-18-G33"/>
+        <segue reference="Mbu-kF-UJa"/>
+        <segue reference="GUw-S9-T2y"/>
+        <segue reference="rcS-hI-Hax"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="aniPal Logo" width="772" height="323"/>
         <image name="blue1" width="508" height="700"/>
         <image name="deedee1" width="626" height="860"/>
-        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart" catalog="system" width="32" height="32"/>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="irene headshot" width="1891" height="2513"/>
         <image name="kiki1" width="612" height="838"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="person.crop.circle" catalog="system" width="128" height="121"/>
         <image name="ruby1" width="614" height="858"/>
+        <image name="sarah headshot" width="2190" height="2915"/>
+        <image name="sky's_picture_lol" width="2316" height="3088"/>
         <image name="yoshi1" width="600" height="836"/>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
