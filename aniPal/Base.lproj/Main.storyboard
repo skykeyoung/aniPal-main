@@ -613,7 +613,7 @@ Lives in an apartment that allows pets</string>
                                 <rect key="frame" x="87" y="184" width="240" height="434"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -621,7 +621,7 @@ Lives in an apartment that allows pets</string>
                                 <rect key="frame" x="87" y="184" width="240" height="434"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -629,7 +629,7 @@ Lives in an apartment that allows pets</string>
                                 <rect key="frame" x="87" y="188" width="240" height="430"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -637,7 +637,7 @@ Lives in an apartment that allows pets</string>
                                 <rect key="frame" x="87" y="188" width="240" height="430"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -645,7 +645,7 @@ Lives in an apartment that allows pets</string>
                                 <rect key="frame" x="87" y="186" width="240" height="457"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <color key="textColor" red="0.43937107920000001" green="0.40636134149999997" blue="0.47452217340000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1264,10 +1264,10 @@ Ruby, 4 Months</string>
         <segue reference="z7r-dW-Lp9"/>
         <segue reference="Cwk-9F-qB2"/>
         <segue reference="AjY-W3-cVk"/>
-        <segue reference="MSy-18-G33"/>
-        <segue reference="Mbu-kF-UJa"/>
-        <segue reference="GUw-S9-T2y"/>
-        <segue reference="rcS-hI-Hax"/>
+        <segue reference="6Vh-El-iF5"/>
+        <segue reference="HbO-vO-vpt"/>
+        <segue reference="jdt-s0-zMc"/>
+        <segue reference="oTL-io-X0P"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="aniPal Logo" width="772" height="323"/>
