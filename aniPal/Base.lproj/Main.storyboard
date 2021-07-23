@@ -474,7 +474,7 @@ Lives in an apartment that allows pets</string>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eDO-yD-tNT">
                                 <rect key="frame" x="40" y="544" width="132" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <imageReference key="image" image="sky's_picture_lol" renderingMode="original"/>
+                                <imageReference key="image" image="sky's_picture_lol-1" renderingMode="original"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGU-tm-uMY">
                                 <rect key="frame" x="40" y="672" width="132" height="124"/>
@@ -1261,19 +1261,19 @@ Ruby, 4 Months</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="bYI-Yw-NhE"/>
-        <segue reference="z7r-dW-Lp9"/>
-        <segue reference="Cwk-9F-qB2"/>
-        <segue reference="AjY-W3-cVk"/>
-        <segue reference="6Vh-El-iF5"/>
-        <segue reference="HbO-vO-vpt"/>
-        <segue reference="jdt-s0-zMc"/>
-        <segue reference="oTL-io-X0P"/>
+        <segue reference="rrq-Ep-JXt"/>
+        <segue reference="ZTE-Ou-Crk"/>
+        <segue reference="clA-mG-coS"/>
+        <segue reference="MSy-18-G33"/>
+        <segue reference="fx2-mW-ne5"/>
+        <segue reference="GUw-S9-T2y"/>
+        <segue reference="rcS-hI-Hax"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="aniPal Logo" width="772" height="323"/>
         <image name="blue1" width="508" height="700"/>
         <image name="deedee1" width="626" height="860"/>
-        <image name="heart" catalog="system" width="32" height="32"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="irene headshot" width="1891" height="2513"/>
         <image name="kiki1" width="612" height="838"/>
@@ -1282,7 +1282,7 @@ Ruby, 4 Months</string>
         <image name="person.crop.circle" catalog="system" width="128" height="121"/>
         <image name="ruby1" width="614" height="858"/>
         <image name="sarah headshot" width="2190" height="2915"/>
-        <image name="sky's_picture_lol" width="2316" height="3088"/>
+        <image name="sky's_picture_lol-1" width="2316" height="3088"/>
         <image name="yoshi1" width="600" height="836"/>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

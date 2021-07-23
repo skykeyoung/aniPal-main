@@ -12,7 +12,7 @@
 		A8DC2D5826A76735002AFBB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DC2D5726A76735002AFBB9 /* ViewController.swift */; };
 		A8DC2D5B26A76735002AFBB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DC2D5926A76735002AFBB9 /* Main.storyboard */; };
 		A8DC2D5E26A76735002AFBB9 /* aniPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8DC2D5C26A76735002AFBB9 /* aniPal.xcdatamodeld */; };
-		A8DC2D6026A76735002AFBB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DC2D5F26A76735002AFBB9 /* Assets.xcassets */; };
+		A8DC2D6026A76735002AFBB9 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DC2D5F26A76735002AFBB9 /* assets.xcassets */; };
 		A8DC2D6326A76735002AFBB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DC2D6126A76735002AFBB9 /* LaunchScreen.storyboard */; };
 		A8DC2D6E26A76735002AFBB9 /* aniPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DC2D6D26A76735002AFBB9 /* aniPalTests.swift */; };
 		A8DC2D7926A76735002AFBB9 /* aniPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DC2D7826A76735002AFBB9 /* aniPalUITests.swift */; };
@@ -49,7 +49,7 @@
 		A8DC2D5726A76735002AFBB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8DC2D5A26A76735002AFBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8DC2D5D26A76735002AFBB9 /* aniPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aniPal.xcdatamodel; sourceTree = "<group>"; };
-		A8DC2D5F26A76735002AFBB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8DC2D5F26A76735002AFBB9 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
 		A8DC2D6226A76735002AFBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8DC2D6426A76735002AFBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8DC2D6926A76735002AFBB9 /* aniPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aniPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +119,7 @@
 				A8DC2D5526A76735002AFBB9 /* SceneDelegate.swift */,
 				A8DC2D5726A76735002AFBB9 /* ViewController.swift */,
 				A8DC2D5926A76735002AFBB9 /* Main.storyboard */,
-				A8DC2D5F26A76735002AFBB9 /* Assets.xcassets */,
+				A8DC2D5F26A76735002AFBB9 /* assets.xcassets */,
 				A8DC2D6126A76735002AFBB9 /* LaunchScreen.storyboard */,
 				A8DC2D6426A76735002AFBB9 /* Info.plist */,
 				A8DC2D5C26A76735002AFBB9 /* aniPal.xcdatamodeld */,
@@ -256,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DC2D6326A76735002AFBB9 /* LaunchScreen.storyboard in Resources */,
-				A8DC2D6026A76735002AFBB9 /* Assets.xcassets in Resources */,
+				A8DC2D6026A76735002AFBB9 /* assets.xcassets in Resources */,
 				A8DC2D5B26A76735002AFBB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
